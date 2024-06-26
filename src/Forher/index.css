@@ -1,0 +1,9 @@
+.text{
+    display: flex;
+}
+#nav{
+ display: flex;
+}
+#image{
+   gap: 10%; 
+}
