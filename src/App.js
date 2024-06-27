@@ -1,5 +1,6 @@
 import Navbar from "./Forher";
 import Store from "./Landing";
+import Items from "./About";
 
 
 function App(){
@@ -7,6 +8,7 @@ function App(){
     <div>
    <Navbar/>
    <Store/>
+   <Items/>
     
     </div>
   );
