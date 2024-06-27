@@ -3,8 +3,8 @@ button{
     color: white;
 }
 
-h2{
-    font-size: 50px;
+#simplify{
+    font-size: 100px;
 }
 .landing{
    list-style: none; 
@@ -17,5 +17,14 @@ h2{
 #lady{
     background-color: pink;
     border-radius: 30px;
-
+    width: 600px;
+}
+#marvin{
+    width: 250px;
+  
+}
+#nav2{
+    display: flex;
+    gap: 10%;
+    list-style: none;
 }
