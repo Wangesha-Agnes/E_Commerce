@@ -3,13 +3,18 @@ import marvin from '../Images/marvin.png'
 
 const Store = ()=>{
 return(
-    <div>
+    <div className='store'>
+          <div className='landing'>
+        <p>#APRILSTORE</p>
         <h2><b>Simplify<br/> Everything.</b></h2>
         <button>EXPLORE NOW</button>
-        <img src={marvin} alt='' />
         <li>Men</li>
-        <li>Women</li>
+        <li><u>women</u></li>
         <li>Kids</li>
+        </div>
+        <div id='lady'>
+        <img src={marvin} alt='' />
+        </div>
     </div>
 );
 };
